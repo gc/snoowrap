@@ -151,7 +151,7 @@ export function addSnakeCaseShadowProps (obj) {
   return obj;
 }
 
-export const isBrowser = typeof self === 'object';
+export const isBrowser = false;
 
 export function defineInspectFunc (obj, inspectFunc) {
   if (isBrowser) {
